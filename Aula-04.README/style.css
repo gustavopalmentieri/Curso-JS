@@ -1,0 +1,11 @@
+body{
+
+    background-color: rgb(105,105,173); /*Cor de fundo do site*/
+    color: white; /*Aqui dentro da Tag body - (corpo do site), estou implementando que todos os textos serão brancos (white).*/
+    font: normal 20px Arial;
+}
+
+h1{
+
+    color: rgb(255,212,22);
+}
