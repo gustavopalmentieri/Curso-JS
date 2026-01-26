@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição.</p>
+
+    <script>
+
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) // Sempre que for solicitado ao usuário que digite um número no "prompt" esse dado e recebido como tipo - String. É necessário fazer a conversão desse dado para que não der conflito em uma soma por exemplo.
+        var n2 = Number.parseInt(window.prompt('Digite outro número: ')) // A conversão dos dados de String para Número e simples, basta colocar antes do comando as seguintes informações - (Number.parseInt - para números inteiros: 1, 2, 3) e (Number.parseFloat - para números reais: 1.1, 3.2, 5.1). Ressalto que a formatação tem que ser com o primeiro "N" sempre e maisculo e o "I" e "F" também.
+
+        // A conversão desse dado pode ser feita de outras formas - var n1 = Number.(window.prompt("Digite um número: ")) - Assim você conseguirá armazenar informações de números inteiros e reais.
+
+        // A outra forma conversão desse dado pode ser feita de outras formas - var n1 = Number.parseFloat.(window.prompt("Digite um número: ")) - Assim você conseguirá armazenar informações de números reais.
+
+        var s = n1 + n2
+
+        window.alert('A soma é: ' + s) // (number + number) - Para adição e (String + String) - Para Concatenação.
+        
+    </script>
+
+
+
+    
+</body>
+</html>
